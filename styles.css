@@ -1,0 +1,60 @@
+html {
+    background-color: #efe7e9;
+  }
+  
+  body {
+    margin-left: 200px;
+    margin-top: 20px;
+  }
+  
+  body p {
+    font-family: "Lucida Console";
+  }
+   .main-section {
+     font-family: "Lucida Console";
+   }
+  
+   .main-section header {
+     font-size: 30px
+   }
+  
+  #navbar header {
+    font-size: 25;
+    margin-top: 16
+  }
+  
+  #navbar{
+    padding: 0;
+    position: fixed;
+    top: 10px;
+    left: 1px;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    background-color: #efe7e9;
+    width: 150px;
+    margin: 0;
+    padding-bottom: 60;
+  }
+  
+  #navbar li a{
+    padding: 30px 1px;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    text-align: justify;
+    font-family: "Lucida Console"
+  }
+  
+  #navbar a:hover {
+    background-color: #555;
+    color: white;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
