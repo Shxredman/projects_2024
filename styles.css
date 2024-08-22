@@ -4,9 +4,13 @@ html {
   
 body {
   margin-left: 200px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
-  
+
+body code {
+  background-color: rgba(0,0,0,0.1);
+}
+
 body p {
   font-family: "Lucida Console";
 }
@@ -16,15 +20,16 @@ body p {
 }
   
 .main-section header {
-  font-size: 30px
+  font-size: 30px;
 }
   
 #navbar header {
-  font-size: 25;
-  margin-top: 16
+  font-size: 25px;
+  margin-top: 16;
+  padding-left: 9px;
 }
   
-#navbar{
+#navbar {
   padding: 0;
   position: fixed;
   top: 10px;
@@ -46,7 +51,8 @@ body p {
   display: block;
   font-size: 20px;
   text-align: justify;
-  font-family: "Lucida Console"
+  font-family: "Lucida Console";
+  border-bottom: 2px solid black;
 }
   
 #navbar a:hover {
