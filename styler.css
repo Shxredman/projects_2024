@@ -1,7 +1,9 @@
 * {
   display: flex-wrap;
 }
-
+ html {
+    background: black;
+ }
 
 #header-img {
   width: 57px;
